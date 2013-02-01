@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../build/build.css">
+</head>
+<body>
+  <script src="../build/build.js"></script>
+  <script>
+    var overlay = require("zepto-overlay")();
+    overlay.show();
+    setTimeout(function() {
+      overlay.hide();
+    }, 3000);
+  </script>
+</body>

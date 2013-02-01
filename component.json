@@ -1,0 +1,21 @@
+{
+  "name": "zepto-overlay",
+  "repo": "p-baleine/zepto-overlay",
+  "description": "Page overlay component based on zepto.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/inherit": "*",
+    "component/emitter": "*",
+    "p-baleine/zepto": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "zepto-overlay.css"
+  ]
+}
